@@ -1,0 +1,234 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  font-family: 'Raleway', sans-serif;
+  position: relative;
+}
+
+.top_bar {
+  width: 100%;
+  height: 5vh;
+  border: 2px lightgrey solid;
+  -webkit-box-shadow:0px 1px 2px lightgrey;
+  -moz-box-shadow:0px 1px 2px lightgrey;
+  box-shadow:0px 1px 2px lightgrey;
+}
+
+.top_bar_textbox {
+  width: 30%;
+  height: 100%;
+  float: left;
+}
+
+.top_bar_textbox .noke_logo {
+  width: 100%;
+  height: 100%;
+  font-size: 140%;
+  text-align: left;
+}
+
+@media (min-device-width: 1024px) {
+  .top_bar_textbox .noke_logo {
+    margin: 1vh 0 0 0;
+  }
+}
+
+.noke_logo h1 {
+  font-weight: lighter;
+  margin: -5px 0 0 8%;
+}
+
+.noke_logo span {
+  color: rgb(61, 174, 247);
+}
+
+.noke_landing {
+  width: 100%;
+  height: 90vh;
+  border: 2px lightgrey solid;
+  -webkit-box-shadow:0px 1px 2px lightgrey;
+  -moz-box-shadow:0px 1px 2px lightgrey;
+  box-shadow:0px 1px 2px lightgrey;
+}
+
+@media (min-device-width: 1024px) {
+  .noke_landing {
+    display: inline-block;
+    margin: 0 0 0 0;
+  }
+}
+
+.noke_landing_welcome {
+  display: none;
+}
+
+@media (min-device-width: 1024px) {
+  .noke_landing_welcome {
+    display: inline;
+    width: 20vw;
+    height: 5vh;
+    font-size: 300%;
+    font-weight: lighter;
+    text-align: center;
+    margin: 20vh 0 0 40vw;
+  }
+}
+
+.noke_landing_border {
+  height: 0;
+  width: 60%;
+  margin: 0 0 0 20%;
+  border-bottom: 2px lightgrey solid;
+}
+
+@media (min-device-width: 1024px) {
+  .noke_landing_border {
+    height: 40%;
+    width: 0;
+    margin: 30% 0 0 0;
+    border-right: 2px lawngreen solid;
+  }
+}
+
+.noke_individuals_section {
+  width: 100%;
+  height: 45vh;
+  background-image:
+    linear-gradient(45deg, white 35%, rgba(255, 0, 0, 0)),
+    url("./assets/Noke_lockgate.jpg");
+  background-size: cover;
+}
+
+@media (min-device-width: 1024px) {
+  .noke_individuals_section {
+    width: 50vw;
+    height: 90vh;
+    margin: 0 0 0 50vw;
+  }
+}
+
+.noke_individuals {
+  width: 100vw;
+  height: 40vh;
+  display: inline;
+  text-align: center;
+  padding: 0;
+  margin: 50% 0 0 15%;
+}
+
+.noke_individuals_icon {
+  width: 15vw;
+  height: 60px;
+  margin: 13vh 0 0 45vw;
+  background-image: url("./assets/Home_Icon.png");
+  background-size: cover;
+}
+
+@media (min-device-width: 1024px) {
+  .noke_individuals_icon {
+    width: 5vw;
+    height: 8vh;
+    margin: 0 0 0 20vw;
+  }
+}
+
+.noke_text h2 {
+  font-weight: lighter;
+  margin-bottom: -20px;
+}
+
+.noke_text h3 {
+  font-weight: bold;
+}
+
+.noke_business_section {
+  width: 100%;
+  height: 45vh;
+  background-image:
+    linear-gradient(315deg, rgba(255, 0, 0, 0), white 50%),
+    url("./assets/AdobeStock_Buildings_Image.jpeg");
+  background-size: cover;
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
+}
+
+@media (min-device-width: 1024px) {
+  .noke_business_section {
+    width: 50vw;
+    height: 90vh;
+    margin: 0 50vw 0 0;
+  }
+}
+
+.noke_business {
+  width: 100vw;
+  height: 40vh;
+  display: inline;
+  text-align: center;
+  padding: 0;
+  margin: 50% 0 0 15%;
+}
+
+.noke_business_icon {
+  width: 15vw;
+  height: 60px;
+  margin: 3vh 0 0 45vw;
+  background-image: url("./assets/Building_icon.png");
+  background-size: cover;
+}
+
+@media (min-device-width: 1024px) {
+  .noke_business_icon {
+    width: 5vw;
+    height: 8vh;
+    margin: 0 0 0 20vw;
+  }
+}
+
+.noke_business .noke_text {
+  width: 70vw;
+  margin: 0 0 0 15vw;
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
+}
+
+.footer {
+  width: 100%;
+  height: 20%;
+  background-color: rgb(242, 242, 242);
+  text-decoration: none;
+  border: 2px lightgrey solid;
+  -webkit-box-shadow:0px 1px 2px lightgrey;
+  -moz-box-shadow:0px 1px 2px lightgrey;
+  box-shadow:0px 1px 2px lightgrey;
+}
+
+@media (min-device-width: 1024px) {
+  .footer {
+
+  }
+}
+
+.footer_links {
+  /*width: 80vw;*/
+}
+
+.footer_links_text {
+  margin: 3vh 0 0 0;
+  line-height: 5px;
+  -webkit-column-count: 2;
+  -moz-column-count: 2;
+  column-count: 2;
+}
+
+.footer_box .noke_logo {
+  display: none;
+}
